@@ -6,7 +6,7 @@ import java.util.function.Supplier;
 /**
  * This is an example demonstrating how a switch statement can be replaced with lambda's.
  */
-public class SwitchVersusLlambda {
+public class SwitchVersusLambda {
 
     private Map<Bicycle, Supplier<List<String>>> typeMap = new HashMap<Bicycle, Supplier<List<String>>>() {
         {
