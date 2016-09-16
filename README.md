@@ -4,4 +4,4 @@ This is an example showing how switch statements can be replaced with lambda exp
 
 ## References
 
-See [my blog]() for the full article.
+See [my blog](http://marcels-javanotes.blogspot.nl/2016/09/replace-switch-statements-using-lamda.html) for the full article.
