@@ -46,16 +46,16 @@ public class SwitchVersusLambda {
 
     private List<String> listAtbs() {
         // Retrieve a list of all ATBs
-        return Collections.singletonList("Scott");
+        return Arrays.asList("Scott Scale 940", "Cube Aim Pro 29", "Sensa Livigno", "Trek Superfly 8");
     }
 
     private List<String> listCityBikes() {
         // Retrieve a list of all City bikes
-        return Arrays.asList("", "", "");
+        return Arrays.asList("Giant Expedition", "Koga Myata Traveller", "Cube Touring");
     }
 
     private List<String> listHumanPoweredVehicles() {
         // Retrieve a list of all HPVs
-        return new ArrayList<>();
+        return Arrays.asList("Ace R.A.R", "Nazca Gaucho 28 highracer");
     }
 }
