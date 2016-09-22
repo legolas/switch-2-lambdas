@@ -17,7 +17,7 @@ public class SwitchVersusLambda {
         }
     };
 
-    public List<String> find(Bicycle bicycle) {
+    public List<String> findUsingSwitch(Bicycle bicycle) {
         switch (bicycle) {
             case RACE:
                 return listRacers();
@@ -32,7 +32,7 @@ public class SwitchVersusLambda {
         }
     }
 
-    public List<String> find2(Bicycle bicycle) {
+    public List<String> findUsingLambdas(Bicycle bicycle) {
         if (!typeMap.containsKey(bicycle)) {
             throw new IllegalArgumentException(String.format("%s is not supported", bicycle));
         }
@@ -46,12 +46,12 @@ public class SwitchVersusLambda {
 
     private List<String> listAtbs() {
         // Retrieve a list of all ATBs
-        return new ArrayList<>();
+        return Collections.singletonList("Scott");
     }
 
     private List<String> listCityBikes() {
         // Retrieve a list of all City bikes
-        return new ArrayList<>();
+        return Arrays.asList("", "", "");
     }
 
     private List<String> listHumanPoweredVehicles() {
