@@ -11,3 +11,6 @@ The [provided unit test](https://github.com/legolas/switch-2-lambdas/blob/master
 
 ## References
 See [my blog](http://marcels-javanotes.blogspot.nl/2016/09/replace-switch-statements-using-lamda.html) for the full article.
+
+## CI
+Build using [Travis CI](https://travis-ci.org/)
