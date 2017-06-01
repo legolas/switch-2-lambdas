@@ -1,7 +1,19 @@
 language: java
 jdk:
   - oraclejdk8
-#sudo: false
+  
+deploy:
+  provider: releases
+  api_key: "GITHUB OAUTH TOKEN"
+  file: "FILE TO UPLOAD"
+  skip_cleanup: true
+  on:
+    tags: true
+  api_key: "GITHUB OAUTH TOKEN"
+  file: "FILE TO UPLOAD"
+  skip_cleanup: true
+  on:
+    tags: true#sudo: false
 #addons:
 #  apt:
 #    packages:
